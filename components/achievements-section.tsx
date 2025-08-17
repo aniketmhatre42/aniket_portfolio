@@ -50,7 +50,7 @@ const certifications = [
 
 export function AchievementsSection() {
   return (
-    <section id="achievements" className="container py-24 bg-muted/30">
+    <section id="achievements" className="container px-6 lg:px-8 py-24 bg-muted/30">
       <div className="text-center mb-16">
         <h2 className="text-3xl font-bold mb-4">Achievements & Certifications</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
