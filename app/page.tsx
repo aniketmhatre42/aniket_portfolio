@@ -6,10 +6,12 @@ import { ExperienceSection } from "@/components/experience-section"
 import { ProjectsSection } from "@/components/projects-section"
 import { AchievementsSection } from "@/components/achievements-section"
 import { ContactSection } from "@/components/contact-section"
+import { Preloader } from "@/components/preloader"
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
+      <Preloader />
       <Header />
       <main>
         <HeroSection />
