@@ -10,7 +10,7 @@ export function TestimonialsSection() {
     {
       name: "Swastik Patil",
       role: "Full Stack Developer",
-      company: "Tech Enthusiast",
+    
       content:
         "Aniket's problem-solving approach and coding skills are exceptional. His projects always showcase innovation and technical excellence.",
       rating: 5,
@@ -19,7 +19,6 @@ export function TestimonialsSection() {
     {
       name: "Yatish Chaubal",
       role: "Software Engineer",
-      company: "Development Team Lead",
       content:
         "Working with Aniket has been amazing. His dedication to clean code and user experience is truly impressive.",
       rating: 5,
@@ -28,7 +27,6 @@ export function TestimonialsSection() {
     {
       name: "Shubham Karande",
       role: "Frontend Developer",
-      company: "UI/UX Specialist",
       content:
         "Aniket's React skills and attention to detail are outstanding. He consistently delivers high-quality solutions.",
       rating: 5,
@@ -37,7 +35,7 @@ export function TestimonialsSection() {
     {
       name: "Swapnil Chavan",
       role: "Backend Developer",
-      company: "System Architect",
+      
       content:
         "Aniket's understanding of full-stack development and his collaborative approach make him a valuable team member.",
       rating: 5,
@@ -46,7 +44,7 @@ export function TestimonialsSection() {
     {
       name: "Sujal Gawand",
       role: "Mobile Developer",
-      company: "App Development Expert",
+      
       content:
         "Aniket's mobile development skills and innovative thinking have impressed everyone. Great potential in tech.",
       rating: 5,
@@ -55,7 +53,7 @@ export function TestimonialsSection() {
     {
       name: "Bhakti Mhatre",
       role: "Project Manager",
-      company: "Team Coordinator",
+      ,
       content: "Aniket's project management skills and technical expertise make him an asset to any development team.",
       rating: 5,
       avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-UPOhTC2OXb3YHe1wTgGEurI0UCjEjp.png",
@@ -63,7 +61,7 @@ export function TestimonialsSection() {
     {
       name: "Divya Gawand",
       role: "Data Scientist",
-      company: "AI/ML Specialist",
+      
       content:
         "Aniket's work on AI projects and machine learning implementations shows his versatility and deep understanding.",
       rating: 5,
