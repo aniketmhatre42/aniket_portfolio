@@ -124,10 +124,17 @@
   }
   body {
     @apply bg-background text-foreground;
+    /* Force dark background for starfield design */
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%) !important;
+    color: white !important;
   }
 }
 
 @layer utilities {
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+
   .animate-fade-in {
     animation: fadeIn 0.8s ease-out forwards;
   }
@@ -202,6 +209,15 @@
     background-position: right center;
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 

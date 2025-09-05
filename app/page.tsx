@@ -1,27 +1,27 @@
-import { Header } from "@/components/header"
-import { HeroSection } from "@/components/hero-section"
-import { AboutSection } from "@/components/about-section"
-import { SkillsSection } from "@/components/skills-section"
-import { ExperienceSection } from "@/components/experience-section"
-import { ProjectsSection } from "@/components/projects-section"
-import { AchievementsSection } from "@/components/achievements-section"
-import { ContactSection } from "@/components/contact-section"
-import { Preloader } from "@/components/preloader"
+import { AnimatedBackground } from "@/components/animated-background"
+import { UniqueHeader } from "@/components/unique-header"
+import { UniqueHero } from "@/components/unique-hero"
+import { ServicesSection } from "@/components/services-section"
+import { UniqueProjects } from "@/components/unique-projects"
+import { UniqueSkills } from "@/components/unique-skills"
+import { TestimonialsSection } from "@/components/testimonials-section"
+import { UniqueContact } from "@/components/unique-contact"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
-      <Preloader />
-      <Header />
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ExperienceSection />
-        <ProjectsSection />
-        <AchievementsSection />
-        <ContactSection />
-      </main>
+    <div className="relative min-h-screen">
+      <AnimatedBackground />
+      <div className="relative z-10">
+        <UniqueHeader />
+        <main>
+          <UniqueHero />
+          <ServicesSection />
+          <UniqueProjects />
+          <UniqueSkills />
+          <TestimonialsSection />
+          <UniqueContact />
+        </main>
+      </div>
     </div>
   )
 }
